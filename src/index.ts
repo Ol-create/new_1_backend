@@ -1,17 +1,19 @@
-let income = 123_456_789;
-let myName = "TypeScript";
-let is_professional = true;
+// id = 1, name = "John Doe"
+// Tuples
+let person: [number, string] = [1, "John Doe"]
 
-let session;
+person[1].toLocaleUpperCase()
 
-session = 1;
-session = "typescripe"
+//Enums Type
 
+// let smallSize = 1;
+// let mediumSize = 2;
+// let largeSize = 3
 
-function getApi(endpoint: any) {
-    return endpoint;
-}
+// pascal case
 
-let num: string[] = ["1", "2", "3"]
+enum Size { Small = 1, Medium, Large }
 
-num.forEach((n) => n.)
+let mySize: Size = Size.Medium
+
+console.log(mySize)
