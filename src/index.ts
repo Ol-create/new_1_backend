@@ -1,9 +1,6 @@
-let a: number = 4
+let income = 123_456_789;
+let myName = "TypeScript";
+let is_professional = true;
 
-if (a < 50) {
-    a += 20;
-}
+let session;
 
-a = 5
-
-console.log(a)
