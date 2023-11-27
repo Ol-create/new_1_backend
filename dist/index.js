@@ -7,6 +7,6 @@ var Size;
     Size[Size["Medium"] = 2] = "Medium";
     Size[Size["Large"] = 3] = "Large";
 })(Size || (Size = {}));
-let mySize = Size.Medium;
+let mySize = Size.Large;
 console.log(mySize);
 //# sourceMappingURL=index.js.map
